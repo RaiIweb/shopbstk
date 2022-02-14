@@ -1,0 +1,351 @@
+{
+  "../components/checkout/right-side-view.tsx -> @components/checkout/item/unverified-item-list": {
+    "id": 75339,
+    "files": [
+      "static/chunks/5339.2e9facf526d490462f2b.js"
+    ]
+  },
+  "../components/checkout/right-side-view.tsx -> @components/checkout/item/verified-item-list": {
+    "id": 77323,
+    "files": [
+      "static/css/f3de312349e2e561e2c6.css",
+      "static/chunks/7323.8147c09ea18cecaa7b1b.js"
+    ]
+  },
+  "../components/layouts/header-minimal.tsx -> ./menu/authorized-menu": {
+    "id": 8039,
+    "files": [
+      "static/chunks/8039.8b7ee7c43457a713b2de.js"
+    ]
+  },
+  "../components/layouts/header-minimal.tsx -> ./menu/join-button": {
+    "id": 49451,
+    "files": [
+      "static/chunks/9451.7c88016324c9059beb7d.js"
+    ]
+  },
+  "../components/layouts/header-minimal.tsx -> @components/cart/cart-counter-icon-button": {
+    "id": 57850,
+    "files": [
+      "static/chunks/7850.859f14057bae1ec94b74.js"
+    ]
+  },
+  "../components/layouts/header.tsx -> ./menu/authorized-menu": {
+    "id": 8039,
+    "files": [
+      "static/chunks/8039.8b7ee7c43457a713b2de.js"
+    ]
+  },
+  "../components/layouts/header.tsx -> ./menu/join-button": {
+    "id": 49451,
+    "files": [
+      "static/chunks/9451.7c88016324c9059beb7d.js"
+    ]
+  },
+  "../components/layouts/header.tsx -> @components/ui/search/search": {
+    "id": 5781,
+    "files": [
+      "static/chunks/5781.d7f6310083c6f601404c.js"
+    ]
+  },
+  "../components/products/cards/card.tsx -> @components/products/cards/argon": {
+    "id": 88375,
+    "files": [
+      "static/chunks/8375.927a6f53e1ff2d00829c.js"
+    ]
+  },
+  "../components/products/cards/card.tsx -> @components/products/cards/helium": {
+    "id": 70015,
+    "files": [
+      "static/chunks/8216.73d7a48ebd02dba8e20d.js"
+    ]
+  },
+  "../components/products/cards/card.tsx -> @components/products/cards/krypton": {
+    "id": 63211,
+    "files": [
+      "static/chunks/3211.0c28e4440d800a496100.js"
+    ]
+  },
+  "../components/products/cards/card.tsx -> @components/products/cards/neon": {
+    "id": 18133,
+    "files": [
+      "static/chunks/8133.147b157280725f022f36.js"
+    ]
+  },
+  "../components/products/cards/card.tsx -> @components/products/cards/xenon": {
+    "id": 6340,
+    "files": [
+      "static/chunks/6340.c582337c1b63f01d3160.js"
+    ]
+  },
+  "../components/products/details/popup.tsx -> ./related-products": {
+    "id": 98679,
+    "files": [
+      "static/chunks/8679.faecee94a4a1da077b69.js"
+    ]
+  },
+  "../components/products/grids/grid-with-loader.tsx -> @components/ui/loaders/product-loader": {
+    "id": 95644,
+    "files": [
+      "static/chunks/5644.ad5cb1ff319a0566cb0c.js"
+    ]
+  },
+  "../components/ui/drawer/managed-drawer.tsx -> @components/cart/cart-sidebar-view": {
+    "id": 48888,
+    "files": [
+      "static/chunks/9540.fcfef384e82c17118185.js",
+      "static/chunks/8888.3f60156e1ce81e987dc2.js"
+    ]
+  },
+  "../components/ui/drawer/managed-drawer.tsx -> @components/layouts/mobile-menu/mobile-authorized-menu": {
+    "id": 79507,
+    "files": [
+      "static/chunks/9507.8ca576a4ab1e5d3be0c0.js"
+    ]
+  },
+  "../components/ui/drawer/managed-drawer.tsx -> @components/layouts/mobile-menu/mobile-main-menu": {
+    "id": 41246,
+    "files": [
+      "static/chunks/1246.ec2bc7ec38c150fa600e.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @components/auth/otp-login-view": {
+    "id": 87387,
+    "files": [
+      "static/css/ec3f114c5b0ca7bdf741.css",
+      "static/chunks/7960.e51bf6f37d4c6e8e1753.js",
+      "static/chunks/7387.d318750dcbb7fa069111.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @components/checkout/contact/add-or-update": {
+    "id": 17654,
+    "files": [
+      "static/css/ec3f114c5b0ca7bdf741.css",
+      "static/chunks/7960.e51bf6f37d4c6e8e1753.js",
+      "static/chunks/7654.596f62555ed4512239f9.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @components/shops/sidebar": {
+    "id": 93320,
+    "files": [
+      "static/chunks/3320-e0e02b6325008ad4e27e.js",
+      "static/chunks/4318.3696e8402f9bbe66dce3.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/address/create-or-update": {
+    "id": 82972,
+    "files": [
+      "static/css/7776283285ae913c7177.css",
+      "static/chunks/2972.ac1c780263decfc8ff03.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/address/delete-view": {
+    "id": 17515,
+    "files": [
+      "static/chunks/7515.3927d0acca07c51139e7.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/auth/forget-password": {
+    "id": 76747,
+    "files": [
+      "static/chunks/6747.c8ce0f0c3f06e00d4839.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/auth/login": {
+    "id": 5206,
+    "files": []
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/auth/register": {
+    "id": 57992,
+    "files": [
+      "static/chunks/7992.fbee18f9868f12e9b1b2.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/products/product": {
+    "id": 7100,
+    "files": [
+      "static/chunks/framework-336caa3f6419768205fe.js",
+      "static/chunks/1061-98106ae8477986ab71cd.js",
+      "static/chunks/6261-70713386c0beba382dd0.js",
+      "static/chunks/533-602ecb7fc98cf82a5ab5.js",
+      "static/chunks/9965-4a13594d8002c5f32d8a.js",
+      "static/css/93010fd490720bfb4297.css",
+      "static/chunks/1482.76d193f8060590d86d5b.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/profile/profile-add-or-update-contact": {
+    "id": 3390,
+    "files": [
+      "static/css/ec3f114c5b0ca7bdf741.css",
+      "static/chunks/7960.e51bf6f37d4c6e8e1753.js",
+      "static/chunks/3390.2aebeff224e10b833dba.js"
+    ]
+  },
+  "../components/ui/modal/managed-modal.tsx -> @framework/refunds/refund-request-view": {
+    "id": 20415,
+    "files": [
+      "static/chunks/framework-336caa3f6419768205fe.js",
+      "static/chunks/3356-da79666790f042435c07.js",
+      "static/chunks/415.ff41472179839a9b9602.js"
+    ]
+  },
+  "../framework/rest/app/banner.tsx -> @components/banners/banner-short": {
+    "id": 68404,
+    "files": [
+      "static/chunks/1061-98106ae8477986ab71cd.js",
+      "static/css/93010fd490720bfb4297.css",
+      "static/chunks/6617.d1c4d48b439d487e5da6.js"
+    ]
+  },
+  "../framework/rest/app/banner.tsx -> @components/banners/banner-with-search": {
+    "id": 96137,
+    "files": [
+      "static/chunks/1061-98106ae8477986ab71cd.js",
+      "static/chunks/533-602ecb7fc98cf82a5ab5.js",
+      "static/css/93010fd490720bfb4297.css",
+      "static/chunks/266.c73f5a0b98c722ab2dea.js"
+    ]
+  },
+  "../framework/rest/app/banner.tsx -> @components/banners/banner-without-slider": {
+    "id": 17990,
+    "files": [
+      "static/chunks/7990.2111b89981889513f637.js"
+    ]
+  },
+  "../framework/rest/app/banner.tsx -> @components/ui/error-message": {
+    "id": 95903,
+    "files": []
+  },
+  "../framework/rest/auth/forget-password.tsx -> @components/auth/forget-password/enter-email-view": {
+    "id": 59115,
+    "files": [
+      "static/chunks/9115.52043afd06a83ea3ba8e.js"
+    ]
+  },
+  "../framework/rest/auth/forget-password.tsx -> @components/auth/forget-password/enter-new-password-view": {
+    "id": 13248,
+    "files": [
+      "static/chunks/3248.2c10cf130b49958eaf60.js"
+    ]
+  },
+  "../framework/rest/auth/forget-password.tsx -> @components/auth/forget-password/enter-token-view": {
+    "id": 70260,
+    "files": [
+      "static/chunks/260.b8aa3775f1bfb3e24b31.js"
+    ]
+  },
+  "../framework/rest/categories/categories.tsx -> @components/categories/filter-category-grid": {
+    "id": 89967,
+    "files": [
+      "static/chunks/9967.22a403edd38299e30741.js"
+    ]
+  },
+  "../framework/rest/categories/categories.tsx -> @components/categories/sliding-vertical-rectangle-categories": {
+    "id": 13748,
+    "files": [
+      "static/chunks/1061-98106ae8477986ab71cd.js",
+      "static/css/93010fd490720bfb4297.css",
+      "static/chunks/7286.d755663582fcf2adeefc.js"
+    ]
+  },
+  "../framework/rest/categories/categories.tsx -> @components/categories/sticky-sidebar-boxed-categories": {
+    "id": 13846,
+    "files": [
+      "static/chunks/8945.14c9d81648259a01c5d8.js",
+      "static/chunks/3846.9545d71cea2062688bd8.js"
+    ]
+  },
+  "../framework/rest/categories/categories.tsx -> @components/categories/sticky-sidebar-list-categories": {
+    "id": 88430,
+    "files": [
+      "static/chunks/8945.14c9d81648259a01c5d8.js",
+      "static/chunks/8430.b02f71aed44334d1141a.js"
+    ]
+  },
+  "../framework/rest/products/products.tsx -> @components/products/cards/card": {
+    "id": 86205,
+    "files": [
+      "static/chunks/6205.a89c0c1059d689280caa.js"
+    ]
+  },
+  "../framework/rest/suggestions/suggestion.tsx -> @components/ui/auto-suggestion": {
+    "id": 33967,
+    "files": [
+      "static/chunks/3967.4f03f9f4ee55fbee3259.js"
+    ]
+  },
+  "[[...pages]].tsx -> @components/cart/cart-counter-button": {
+    "id": 88778,
+    "files": [
+      "static/chunks/8778.4bb725391a1c53e2767f.js"
+    ]
+  },
+  "[[...pages]].tsx -> @components/layouts/classic": {
+    "id": 89506,
+    "files": [
+      "static/chunks/1061-98106ae8477986ab71cd.js",
+      "static/css/93010fd490720bfb4297.css",
+      "static/chunks/5171.ddc7caf8f4a21392179a.js"
+    ]
+  },
+  "[[...pages]].tsx -> @components/layouts/minimal": {
+    "id": 13435,
+    "files": [
+      "static/chunks/3435.804f6b7cd7959e8b82d1.js"
+    ]
+  },
+  "[[...pages]].tsx -> @components/layouts/modern": {
+    "id": 1010,
+    "files": [
+      "static/chunks/1010.89f3fbc8313375911cc3.js"
+    ]
+  },
+  "[[...pages]].tsx -> @components/layouts/standard": {
+    "id": 99434,
+    "files": [
+      "static/chunks/9434.663845a026714e3b24fc.js"
+    ]
+  },
+  "checkout.tsx -> @components/checkout/address-grid": {
+    "id": 69934,
+    "files": [
+      "static/chunks/9934.85a56f9179c05a230d62.js"
+    ]
+  },
+  "checkout.tsx -> @components/checkout/contact/contact-grid": {
+    "id": 46587,
+    "files": [
+      "static/chunks/6587.bac536ce5f2bf7ebc895.js"
+    ]
+  },
+  "checkout.tsx -> @components/checkout/right-side-view": {
+    "id": 66666,
+    "files": [
+      "static/chunks/6666.7754e0a52423ef099fc3.js"
+    ]
+  },
+  "checkout.tsx -> @components/checkout/schedule/schedule-grid": {
+    "id": 19758,
+    "files": [
+      "static/chunks/9758.6ea64d738f606802024e.js"
+    ]
+  },
+  "products/[slug].tsx -> @components/cart/cart-counter-button": {
+    "id": 88778,
+    "files": [
+      "static/chunks/6269.a83c3cb020dbe0104deb.js"
+    ]
+  },
+  "products/[slug].tsx -> @components/products/details/related-products": {
+    "id": 98679,
+    "files": [
+      "static/chunks/8679.faecee94a4a1da077b69.js"
+    ]
+  },
+  "shops/[slug].tsx -> @components/cart/cart-counter-button": {
+    "id": 88778,
+    "files": [
+      "static/chunks/8778.4bb725391a1c53e2767f.js"
+    ]
+  }
+}
