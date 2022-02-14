@@ -1,6 +1,5 @@
 {
   "/404": "pages/404.js",
-  "/[[...pages]]": "pages/[[...pages]].js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
@@ -8,6 +7,7 @@
   "/checkout": "pages/checkout.js",
   "/contact": "pages/contact.js",
   "/help": "pages/help.js",
+  "/": "pages/index.js",
   "/logout": "pages/logout.js",
   "/offers": "pages/offers.js",
   "/orders/[tracking_number]": "pages/orders/[tracking_number].js",

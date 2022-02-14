@@ -23,8 +23,8 @@ module.exports = {
         '-1': '-1',
       },
       fontFamily: {
-        body: ['Open Sans', 'system-ui', 'sans-serif'],
-        heading: ['Open Sans', 'system-ui', 'sans-serif'],
+        body: ['RidleyGrotesk', 'system-ui', 'sans-serif'],
+        heading: ['RidleyGrotesk', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         '10px': '0.625rem',

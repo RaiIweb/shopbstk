@@ -105,8 +105,8 @@ const Search = _ref => {
     onClearSearch: clearSearch,
     onChange: handleOnChange,
     value: searchTerm,
-    name: "search",
-    placeholder: t('common:text-search-placeholder'),
+    name: "search" // placeholder={t('common:text-search-placeholder')}
+    ,
     variant: variant
   }, props));
 };

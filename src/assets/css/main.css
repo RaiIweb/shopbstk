@@ -2,6 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-UltraLight.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-Bold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: RidleyGrotesk;
+  src: url(../fonts/ridley-grotesk/RidleyGrotesk-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
 @layer base {
   :root {
     /*
@@ -14,7 +70,7 @@
     /*
     * primary color
     */
-    --color-accent: 0, 159, 127;
+    --color-accent: 57, 73, 81;
 
     /*
     * Hover state color of primary color

@@ -45,19 +45,19 @@
   "../components/layouts/header.tsx -> @components/ui/search/search": {
     "id": 5781,
     "files": [
-      "static/chunks/5781.d7f6310083c6f601404c.js"
+      "static/chunks/5781.ada475b954f68786d922.js"
     ]
   },
   "../components/products/cards/card.tsx -> @components/products/cards/argon": {
     "id": 88375,
     "files": [
-      "static/chunks/8375.927a6f53e1ff2d00829c.js"
+      "static/chunks/8375.f91b6e2e932df5d60c10.js"
     ]
   },
   "../components/products/cards/card.tsx -> @components/products/cards/helium": {
     "id": 70015,
     "files": [
-      "static/chunks/8216.73d7a48ebd02dba8e20d.js"
+      "static/chunks/8216.885d6955173a7bd6c08f.js"
     ]
   },
   "../components/products/cards/card.tsx -> @components/products/cards/krypton": {
@@ -69,13 +69,13 @@
   "../components/products/cards/card.tsx -> @components/products/cards/neon": {
     "id": 18133,
     "files": [
-      "static/chunks/8133.147b157280725f022f36.js"
+      "static/chunks/8133.5616111b72ab4256f0bd.js"
     ]
   },
   "../components/products/cards/card.tsx -> @components/products/cards/xenon": {
     "id": 6340,
     "files": [
-      "static/chunks/6340.c582337c1b63f01d3160.js"
+      "static/chunks/6340.a0868f474cd72ed06da8.js"
     ]
   },
   "../components/products/details/popup.tsx -> ./related-products": {
@@ -192,18 +192,15 @@
   "../framework/rest/app/banner.tsx -> @components/banners/banner-short": {
     "id": 68404,
     "files": [
-      "static/chunks/1061-98106ae8477986ab71cd.js",
-      "static/css/93010fd490720bfb4297.css",
-      "static/chunks/6617.d1c4d48b439d487e5da6.js"
+      "static/chunks/8404.f0345639f5859aec00e8.js"
     ]
   },
   "../framework/rest/app/banner.tsx -> @components/banners/banner-with-search": {
     "id": 96137,
     "files": [
-      "static/chunks/1061-98106ae8477986ab71cd.js",
+      "static/chunks/framework-336caa3f6419768205fe.js",
       "static/chunks/533-602ecb7fc98cf82a5ab5.js",
-      "static/css/93010fd490720bfb4297.css",
-      "static/chunks/266.c73f5a0b98c722ab2dea.js"
+      "static/chunks/6137.581b102d79d2d5d58288.js"
     ]
   },
   "../framework/rest/app/banner.tsx -> @components/banners/banner-without-slider": {
@@ -211,10 +208,6 @@
     "files": [
       "static/chunks/7990.2111b89981889513f637.js"
     ]
-  },
-  "../framework/rest/app/banner.tsx -> @components/ui/error-message": {
-    "id": 95903,
-    "files": []
   },
   "../framework/rest/auth/forget-password.tsx -> @components/auth/forget-password/enter-email-view": {
     "id": 59115,
@@ -237,7 +230,7 @@
   "../framework/rest/categories/categories.tsx -> @components/categories/filter-category-grid": {
     "id": 89967,
     "files": [
-      "static/chunks/9967.22a403edd38299e30741.js"
+      "static/chunks/9967.53a71baf802525a40247.js"
     ]
   },
   "../framework/rest/categories/categories.tsx -> @components/categories/sliding-vertical-rectangle-categories": {
@@ -272,38 +265,6 @@
     "id": 33967,
     "files": [
       "static/chunks/3967.4f03f9f4ee55fbee3259.js"
-    ]
-  },
-  "[[...pages]].tsx -> @components/cart/cart-counter-button": {
-    "id": 88778,
-    "files": [
-      "static/chunks/8778.4bb725391a1c53e2767f.js"
-    ]
-  },
-  "[[...pages]].tsx -> @components/layouts/classic": {
-    "id": 89506,
-    "files": [
-      "static/chunks/1061-98106ae8477986ab71cd.js",
-      "static/css/93010fd490720bfb4297.css",
-      "static/chunks/5171.ddc7caf8f4a21392179a.js"
-    ]
-  },
-  "[[...pages]].tsx -> @components/layouts/minimal": {
-    "id": 13435,
-    "files": [
-      "static/chunks/3435.804f6b7cd7959e8b82d1.js"
-    ]
-  },
-  "[[...pages]].tsx -> @components/layouts/modern": {
-    "id": 1010,
-    "files": [
-      "static/chunks/1010.89f3fbc8313375911cc3.js"
-    ]
-  },
-  "[[...pages]].tsx -> @components/layouts/standard": {
-    "id": 99434,
-    "files": [
-      "static/chunks/9434.663845a026714e3b24fc.js"
     ]
   },
   "checkout.tsx -> @components/checkout/address-grid": {

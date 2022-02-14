@@ -52,7 +52,7 @@ const BannerWithSearch = ({
   };
 
   return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()('hidden lg:block relative', {
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()('hidden lg:block relative bg-light', {
       '!block': layout === 'minimal'
     }),
     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx("div", {
@@ -82,7 +82,7 @@ const BannerWithSearch = ({
                   layout: "fill",
                   objectFit: "cover"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
-                  className: classnames__WEBPACK_IMPORTED_MODULE_0___default()('p-5 md:px-20 mt-8 absolute inset-0 w-full flex flex-col items-center justify-center text-center lg:space-y-10', {
+                  className: classnames__WEBPACK_IMPORTED_MODULE_0___default()('p-5 md:px-20 mt-8 absolute top-32 w-full flex flex-col items-center justify-center text-center lg:space-y-10', {
                     'space-y-5 md:!space-y-8': layout === 'minimal'
                   }),
                   children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx("h1", {
@@ -94,7 +94,7 @@ const BannerWithSearch = ({
                     className: "text-sm lg:text-base xl:text-lg text-heading",
                     children: banner === null || banner === void 0 ? void 0 : banner.description
                   }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx("div", {
-                    className: "max-w-3xl w-full",
+                    className: "max-w-4xl w-full",
                     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx(_components_ui_search_search__WEBPACK_IMPORTED_MODULE_5__.default, {
                       label: "search"
                     })
@@ -114,29 +114,6 @@ const BannerWithSearch = ({
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BannerWithSearch);
-});
-
-/***/ }),
-
-/***/ 4114:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "W_": () => (/* reexport safe */ swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation),
-/* harmony export */   "o3": () => (/* reexport safe */ swiper__WEBPACK_IMPORTED_MODULE_0__.Thumbs),
-/* harmony export */   "tq": () => (/* reexport safe */ swiper_react__WEBPACK_IMPORTED_MODULE_1__.Swiper),
-/* harmony export */   "o5": () => (/* reexport safe */ swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide)
-/* harmony export */ });
-/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4074);
-/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2156);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_1__, swiper__WEBPACK_IMPORTED_MODULE_0__]);
-([swiper_react__WEBPACK_IMPORTED_MODULE_1__, swiper__WEBPACK_IMPORTED_MODULE_0__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
-
-
-
-
-
 });
 
 /***/ })

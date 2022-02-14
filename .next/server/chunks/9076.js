@@ -127,11 +127,10 @@ const useSettings = () => {
 /***/ 5903:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Error": () => (/* binding */ Error),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* unused harmony export Error */
 /* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8475);
 /* harmony import */ var next_i18next__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_i18next__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5282);
@@ -143,8 +142,8 @@ const Error = ({
 }) => {
   const {
     t
-  } = (0,next_i18next__WEBPACK_IMPORTED_MODULE_0__.useTranslation)('common');
-  return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx("p", {
+  } = useTranslation('common');
+  return /*#__PURE__*/_jsx("p", {
     className: "my-2 text-xs text-start text-red-500",
     children: t(message)
   });
@@ -200,7 +199,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 const Logo = _ref => {
-  var _logo$original;
+  var _logoDarkSvg;
 
   let {
     className
@@ -218,7 +217,7 @@ const Logo = _ref => {
     children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx("span", {
       className: "overflow-hidden relative w-32 md:w-40 h-10",
       children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx(_components_ui_image__WEBPACK_IMPORTED_MODULE_0__/* .Image */ .E, {
-        src: (_logo$original = logo === null || logo === void 0 ? void 0 : logo.original) !== null && _logo$original !== void 0 ? _logo$original : _lib_placeholders__WEBPACK_IMPORTED_MODULE_4__/* .logoPlaceholder */ .nM,
+        src: (_logoDarkSvg = '/logo-dark.svg') !== null && _logoDarkSvg !== void 0 ? _logoDarkSvg : _lib_placeholders__WEBPACK_IMPORTED_MODULE_4__/* .logoPlaceholder */ .nM,
         alt: siteTitle || 'PickBazar Logo',
         layout: "fill",
         objectFit: "contain",
@@ -388,10 +387,9 @@ const Scrollbar = _ref => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "bt": () => (/* binding */ fetchGroups),
-/* harmony export */   "RW": () => (/* binding */ useGroupsQuery),
-/* harmony export */   "yi": () => (/* binding */ fetchGroup),
-/* harmony export */   "xR": () => (/* binding */ useGroupQuery)
+/* harmony export */   "RW": () => (/* binding */ useGroupsQuery)
 /* harmony export */ });
+/* unused harmony exports fetchGroup, useGroupQuery */
 /* harmony import */ var _framework_utils_base_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7853);
 /* harmony import */ var _framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6449);
 /* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2585);
@@ -399,14 +397,59 @@ const Scrollbar = _ref => {
 
 
 
+const data = [{
+  "id": 1,
+  "name": "Grocery",
+  "settings": {
+    "isHome": true,
+    "layoutType": "classic",
+    "productCard": "neon"
+  },
+  "slug": "grocery",
+  "icon": "FruitsVegetable",
+  "promotional_sliders": [{
+    "id": 902,
+    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/offer-5.png",
+    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/902/conversions/offer-5-thumbnail.jpg"
+  }, {
+    "id": 903,
+    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/offer-4.png",
+    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/903/conversions/offer-4-thumbnail.jpg"
+  }, {
+    "id": 904,
+    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/offer-3.png",
+    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/offer-3-thumbnail.jpg"
+  }, {
+    "id": 905,
+    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/offer-2.png",
+    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/905/conversions/offer-2-thumbnail.jpg"
+  }, {
+    "id": 906,
+    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/offer-1.png",
+    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/906/conversions/offer-1-thumbnail.jpg"
+  }],
+  "created_at": "2021-03-08T07:18:25.000000Z",
+  "updated_at": "2021-08-18T17:12:14.000000Z",
+  "banners": [{
+    "id": 12,
+    "type_id": 1,
+    "title": "Groceries Delivered in 90 Minute",
+    "description": "Get your healthy foods & snacks delivered at your doorsteps all day everyday",
+    "image": {
+      "id": 907,
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/grocery.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/904/conversions/grocery-thumbnail.jpg"
+    },
+    "created_at": "2021-07-17T13:21:55.000000Z",
+    "updated_at": "2021-07-17T13:21:55.000000Z"
+  }]
+}];
 
 class GroupService extends _framework_utils_base_service__WEBPACK_IMPORTED_MODULE_0__/* .BaseService */ .b {}
 
 const groupService = new GroupService(_framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__/* .API_ENDPOINTS.TYPE */ .P.TYPE);
 const fetchGroups = async () => {
-  const {
-    data
-  } = await groupService.findAll();
+  // const { data } = await groupService.findAll();
   return {
     types: data
   };
@@ -415,13 +458,13 @@ const useGroupsQuery = () => {
   return (0,react_query__WEBPACK_IMPORTED_MODULE_2__.useQuery)(_framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__/* .API_ENDPOINTS.TYPE */ .P.TYPE, fetchGroups);
 };
 const fetchGroup = async slug => {
-  const data = await groupService.findOne(slug);
+  // const data = await groupService.findOne(slug);
   return {
-    type: data
+    type: data[0]
   };
 };
 const useGroupQuery = slug => {
-  return (0,react_query__WEBPACK_IMPORTED_MODULE_2__.useQuery)([_framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__/* .API_ENDPOINTS.TYPE */ .P.TYPE, slug], () => fetchGroup(slug), {
+  return useQuery([API_ENDPOINTS.TYPE, slug], () => fetchGroup(slug), {
     enabled: Boolean(slug)
   });
 };

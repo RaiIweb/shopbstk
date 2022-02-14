@@ -119,7 +119,7 @@ const OrderStatus = ({
   if (loading) return /*#__PURE__*/jsx_runtime_.jsx(spinner/* default */.Z, {
     showText: false
   });
-  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message.default, {
+  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message/* default */.Z, {
     message: error.message
   });
   return /*#__PURE__*/jsx_runtime_.jsx(progress_box, {
@@ -683,7 +683,7 @@ function Orders() {
       setOrder(data.pages[0].data[0]);
     }
   }, [data === null || data === void 0 ? void 0 : data.pages, data === null || data === void 0 ? void 0 : data.pages.length]);
-  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message.default, {
+  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message/* default */.Z, {
     message: error.message
   });
 
@@ -738,8 +738,8 @@ function Orders() {
     })]
   });
 }
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 // EXTERNAL MODULE: ./src/framework/rest/ssr/common.ts
 var common = __webpack_require__(102);
 ;// CONCATENATED MODULE: ./src/pages/orders/index.tsx
@@ -1083,7 +1083,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,1553,3457,3795,550,102,2562,876,4700,9805,2726,8598], () => (__webpack_exec__(1777)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,3457,1553,102,550,3795,2562,876,4700,9805,2726,8598], () => (__webpack_exec__(1777)));
 module.exports = __webpack_exports__;
 
 })();

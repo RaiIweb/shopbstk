@@ -1,5 +1,6 @@
 import Logo from '@components/ui/logo';
 import cn from 'classnames';
+import { FaUserAlt } from 'react-icons/fa'
 import GroupsDropdownMenu from '@framework/groups/dropdown-menu';
 import StaticMenu from './menu/static-menu';
 import { useAtom } from 'jotai';
@@ -41,7 +42,7 @@ const Header = () => {
     >
       <div
         className={cn(
-          'flex justify-between items-center w-full h-14 md:h-16 lg:h-22 px-4 lg:px-8 py-5 z-50 fixed bg-light border-b border-border-200 shadow-sm transition-transform duration-300',
+          'flex justify-between items-center w-full h-14 md:h-16 lg:h-22 px-4 lg:px-8 py-5 z-50 fixed bg-light shadow-sm transition-transform duration-300',
           {
             'lg:absolute lg:bg-transparent lg:shadow-none lg:border-0':
               isFlattenHeader,
@@ -51,9 +52,9 @@ const Header = () => {
         <div className="flex items-center w-full lg:w-auto">
           <Logo className="mx-auto lg:mx-0" />
 
-          <div className="ms-10 me-auto hidden xl:block">
+          {/* <div className="ms-10 me-auto hidden xl:block">
             <GroupsDropdownMenu />
-          </div>
+          </div> */}
         </div>
         {isHomePage ? (
           <>
@@ -72,7 +73,10 @@ const Header = () => {
         ) : null}
         <ul className="hidden lg:flex items-center flex-shrink-0 space-s-10">
           <StaticMenu />
-          <li>{isAuthorize ? <AuthorizedMenu /> : <JoinButton />}</li>
+          <button className="bg-gray-200 p-2 rounded-full">
+            <FaUserAlt className="text-light text-2xl" />
+          </button>
+          {/* <li>{isAuthorize ? <AuthorizedMenu /> : <JoinButton />}</li> */}
         </ul>
       </div>
     </header>

@@ -197,7 +197,7 @@ function Shops() {
   } = (0,shops_query/* useShopsQuery */.uL)({
     is_active: 1
   });
-  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message.default, {
+  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message/* default */.Z, {
     message: error.message
   });
 
@@ -222,8 +222,8 @@ function Shops() {
     })
   });
 }
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 // EXTERNAL MODULE: ./src/framework/rest/app/settings.query.ts
 var settings_query = __webpack_require__(168);
 // EXTERNAL MODULE: ./src/framework/rest/groups/groups.query.ts
@@ -538,7 +538,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,1553,3795,550,180,9534], () => (__webpack_exec__(8951)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,1553,550,3795,180,9534], () => (__webpack_exec__(8951)));
 module.exports = __webpack_exports__;
 
 })();

@@ -62,6 +62,39 @@ const DrawerWrapper = ({
 
 /***/ }),
 
+/***/ 168:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "w": () => (/* binding */ fetchSettings),
+/* harmony export */   "n": () => (/* binding */ useSettingsQuery)
+/* harmony export */ });
+/* harmony import */ var _framework_utils_base_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7853);
+/* harmony import */ var _framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6449);
+/* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2585);
+/* harmony import */ var react_query__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_query__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+class SettingsService extends _framework_utils_base_service__WEBPACK_IMPORTED_MODULE_0__/* .BaseService */ .b {}
+
+const settingsService = new SettingsService(_framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__/* .API_ENDPOINTS.SETTINGS */ .P.SETTINGS);
+const fetchSettings = async () => {
+  const {
+    data
+  } = await settingsService.findAll();
+  return {
+    settings: data
+  };
+};
+const useSettingsQuery = () => {
+  return (0,react_query__WEBPACK_IMPORTED_MODULE_2__.useQuery)(_framework_utils_endpoints__WEBPACK_IMPORTED_MODULE_1__/* .API_ENDPOINTS.SETTINGS */ .P.SETTINGS, fetchSettings);
+};
+
+/***/ }),
+
 /***/ 5206:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -434,7 +467,7 @@ function fadeInOut(duration = 0.2) {
 
 /***/ }),
 
-/***/ 7862:
+/***/ 8400:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -513,7 +546,7 @@ const AppSettings = props => {
     error
   } = (0,settings_query/* useSettingsQuery */.n)();
   if (loading) return /*#__PURE__*/jsx_runtime_.jsx(page_loader, {});
-  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message.default, {
+  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message/* default */.Z, {
     message: error.message
   });
   return /*#__PURE__*/jsx_runtime_.jsx(settings_context/* SettingsProvider */.mu, _objectSpread({
@@ -733,8 +766,111 @@ var external_react_toastify_ = __webpack_require__(2034);
 var ReactToastify = __webpack_require__(8819);
 // EXTERNAL MODULE: ./src/components/ui/drawer/drawer-wrapper.tsx
 var drawer_wrapper = __webpack_require__(6261);
-// EXTERNAL MODULE: ./src/framework/rest/categories/categories.tsx
-var categories = __webpack_require__(1);
+// EXTERNAL MODULE: external "next/router"
+var router_ = __webpack_require__(6731);
+// EXTERNAL MODULE: ./src/framework/rest/utils/base-service.ts + 2 modules
+var base_service = __webpack_require__(7853);
+// EXTERNAL MODULE: ./src/framework/rest/utils/endpoints.ts
+var endpoints = __webpack_require__(6449);
+;// CONCATENATED MODULE: ./src/framework/rest/categories/categories.query.ts
+
+
+
+
+class CategoryService extends base_service/* BaseService */.b {}
+
+const categoryService = new CategoryService(endpoints/* API_ENDPOINTS.CATEGORIES */.P.CATEGORIES);
+const fetchCategories = async ({
+  queryKey
+}) => {
+  const params = queryKey[1];
+  const {
+    data
+  } = await categoryService.find(params);
+  return {
+    categories: {
+      data
+    }
+  };
+};
+const useCategoriesQuery = options => {
+  return (0,external_react_query_.useQuery)([endpoints/* API_ENDPOINTS.CATEGORIES */.P.CATEGORIES, options], fetchCategories);
+};
+// EXTERNAL MODULE: ./src/framework/rest/utils/use-homepage.ts
+var use_homepage = __webpack_require__(3585);
+;// CONCATENATED MODULE: ./src/framework/rest/categories/categories.tsx
+
+
+
+
+
+
+const StickySidebarListCategories = (0,dynamic.default)(() => Promise.all(/* import() */[__webpack_require__.e(4318), __webpack_require__.e(3795), __webpack_require__.e(3921), __webpack_require__.e(6875), __webpack_require__.e(8430)]).then(__webpack_require__.bind(__webpack_require__, 8430)), {
+  loadableGenerated: {
+    webpack: () => [/*require.resolve*/(8430)],
+    modules: ["../framework/rest/categories/categories.tsx -> " + '@components/categories/sticky-sidebar-list-categories']
+  }
+});
+const SlidingVerticalRectangleCategories = (0,dynamic.default)(() => Promise.all(/* import() */[__webpack_require__.e(3795), __webpack_require__.e(653), __webpack_require__.e(5545)]).then(__webpack_require__.bind(__webpack_require__, 5545)), {
+  loadableGenerated: {
+    webpack: () => [/*require.resolve*/(5545)],
+    modules: ["../framework/rest/categories/categories.tsx -> " + '@components/categories/sliding-vertical-rectangle-categories']
+  }
+});
+const StickySidebarBoxedCategories = (0,dynamic.default)(() => Promise.all(/* import() */[__webpack_require__.e(4318), __webpack_require__.e(3795), __webpack_require__.e(3921), __webpack_require__.e(6875), __webpack_require__.e(3846)]).then(__webpack_require__.bind(__webpack_require__, 3846)), {
+  loadableGenerated: {
+    webpack: () => [/*require.resolve*/(3846)],
+    modules: ["../framework/rest/categories/categories.tsx -> " + '@components/categories/sticky-sidebar-boxed-categories']
+  }
+});
+const FilterCategoryGrid = (0,dynamic.default)(() => Promise.all(/* import() */[__webpack_require__.e(3844), __webpack_require__.e(65), __webpack_require__.e(3795), __webpack_require__.e(3921), __webpack_require__.e(3645), __webpack_require__.e(9967)]).then(__webpack_require__.bind(__webpack_require__, 9967)), {
+  loadableGenerated: {
+    webpack: () => [/*require.resolve*/(9967)],
+    modules: ["../framework/rest/categories/categories.tsx -> " + '@components/categories/filter-category-grid']
+  }
+});
+const MAP_CATEGORY_TO_GROUP = {
+  classic: StickySidebarListCategories,
+  modern: StickySidebarBoxedCategories,
+  standard: SlidingVerticalRectangleCategories,
+  minimal: FilterCategoryGrid,
+  default: StickySidebarListCategories
+};
+
+const Categories = ({
+  layout,
+  className
+}) => {
+  var _ref, _query$pages, _data$categories, _data$categories$data, _data$categories2;
+
+  const {
+    query
+  } = (0,router_.useRouter)();
+  const {
+    homePage
+  } = (0,use_homepage/* default */.Z)();
+  const {
+    data,
+    isLoading: loading,
+    error
+  } = useCategoriesQuery({
+    type: (_ref = (_query$pages = query.pages) === null || _query$pages === void 0 ? void 0 : _query$pages[0]) !== null && _ref !== void 0 ? _ref : homePage === null || homePage === void 0 ? void 0 : homePage.slug,
+    limit: 1000,
+    parent: layout === 'minimal' ? 'all' : 'null'
+  });
+  if (error) return /*#__PURE__*/jsx_runtime_.jsx(error_message/* default */.Z, {
+    message: error.message
+  });
+  const Component = layout ? MAP_CATEGORY_TO_GROUP[layout] : MAP_CATEGORY_TO_GROUP['default'];
+  return /*#__PURE__*/jsx_runtime_.jsx(Component, {
+    notFound: !Boolean(data === null || data === void 0 ? void 0 : (_data$categories = data.categories) === null || _data$categories === void 0 ? void 0 : (_data$categories$data = _data$categories.data) === null || _data$categories$data === void 0 ? void 0 : _data$categories$data.length),
+    categories: data === null || data === void 0 ? void 0 : (_data$categories2 = data.categories) === null || _data$categories2 === void 0 ? void 0 : _data$categories2.data,
+    loading: loading,
+    className: className
+  });
+};
+
+/* harmony default export */ const categories = (Categories);
 ;// CONCATENATED MODULE: ./src/components/layouts/mobile-menu/mobile-category-menu.tsx
 
 
@@ -743,7 +879,7 @@ function MobileCategoryMenu() {
   return /*#__PURE__*/jsx_runtime_.jsx(drawer_wrapper/* default */.Z, {
     children: /*#__PURE__*/jsx_runtime_.jsx("div", {
       className: "h-full max-h-full overflow-hidden",
-      children: /*#__PURE__*/jsx_runtime_.jsx(categories/* default */.Z, {
+      children: /*#__PURE__*/jsx_runtime_.jsx(categories, {
         layout: "classic",
         className: "!block"
       })
@@ -922,8 +1058,6 @@ var spinner = __webpack_require__(876);
 var use_user = __webpack_require__(1617);
 // EXTERNAL MODULE: ./src/framework/rest/auth/login.tsx + 3 modules
 var login = __webpack_require__(5206);
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(6731);
 // EXTERNAL MODULE: ./src/store/authorization-atom.ts
 var authorization_atom = __webpack_require__(7471);
 ;// CONCATENATED MODULE: ./src/components/icons/back-arrow-round.tsx
@@ -997,8 +1131,8 @@ const PrivateRoute = ({
 };
 
 /* harmony default export */ const private_route = (PrivateRoute);
-// EXTERNAL MODULE: external "next-seo"
-var external_next_seo_ = __webpack_require__(2364);
+;// CONCATENATED MODULE: external "next-seo"
+const external_next_seo_namespaceObject = require("next-seo");
 ;// CONCATENATED MODULE: ./src/components/seo/default-seo.tsx
 
 
@@ -1008,7 +1142,7 @@ const DefaultSeo = () => {
   var _settings$seo, _settings$seo2, _settings$seo3, _settings$seo4, _settings$seo5, _settings$seo6, _settings$seo7, _settings$seo7$ogImag, _settings$seo8, _settings$seo9, _settings$seo10;
 
   const settings = (0,settings_context/* useSettings */.rV)();
-  return /*#__PURE__*/jsx_runtime_.jsx(external_next_seo_.DefaultSeo, {
+  return /*#__PURE__*/jsx_runtime_.jsx(external_next_seo_namespaceObject.DefaultSeo, {
     additionalMetaTags: [{
       name: 'viewport',
       content: 'width=device-width, initial-scale=1 maximum-scale=1'
@@ -1304,14 +1438,6 @@ module.exports = require("next-i18next");
 
 /***/ }),
 
-/***/ 2364:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next-seo");
-
-/***/ }),
-
 /***/ 9325:
 /***/ ((module) => {
 
@@ -1599,7 +1725,7 @@ module.exports = require("yup");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,2923,808,9076,1553,876,1,1860,9805,4175,2975,3953,5555,3158,8221], () => (__webpack_exec__(7862)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,2923,808,9076,1553,876,1860,9805,4175,2975,3953,5555,3158], () => (__webpack_exec__(8400)));
 module.exports = __webpack_exports__;
 
 })();

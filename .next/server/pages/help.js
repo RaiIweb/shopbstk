@@ -151,8 +151,8 @@ const faq = [{
 }];
 // EXTERNAL MODULE: external "next-i18next/serverSideTranslations"
 var serverSideTranslations_ = __webpack_require__(3295);
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 ;// CONCATENATED MODULE: ./src/pages/help.tsx
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
@@ -437,7 +437,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,9522,8130], () => (__webpack_exec__(4214)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,9522,8130], () => (__webpack_exec__(4214)));
 module.exports = __webpack_exports__;
 
 })();

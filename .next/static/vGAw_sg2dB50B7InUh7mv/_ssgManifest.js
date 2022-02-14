@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Flogout","\u002F404","\u002Fcheckout","\u002Fchange-password","\u002Fhelp","\u002Fcontact","\u002Foffers","\u002Fprivacy","\u002Fprofile","\u002Fshops","\u002Fterms","\u002Frefunds","\u002Forders","\u002F[[...pages]]","\u002Fshops\u002F[slug]","\u002Fproducts\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

@@ -27,7 +27,7 @@ const BannerWithSearch: React.FC<BannerProps> = ({ banners, layout }) => {
 
   return (
     <div
-      className={cn('hidden lg:block relative', {
+      className={cn('hidden lg:block relative bg-light', {
         '!block': layout === 'minimal',
       })}
     >
@@ -58,7 +58,7 @@ const BannerWithSearch: React.FC<BannerProps> = ({ banners, layout }) => {
                   />
                   <div
                     className={cn(
-                      'p-5 md:px-20 mt-8 absolute inset-0 w-full flex flex-col items-center justify-center text-center lg:space-y-10',
+                      'p-5 md:px-20 mt-8 absolute top-32 w-full flex flex-col items-center justify-center text-center lg:space-y-10',
                       {
                         'space-y-5 md:!space-y-8': layout === 'minimal',
                       }
@@ -77,7 +77,7 @@ const BannerWithSearch: React.FC<BannerProps> = ({ banners, layout }) => {
                     <p className="text-sm lg:text-base xl:text-lg text-heading">
                       {banner?.description}
                     </p>
-                    <div className="max-w-3xl w-full">
+                    <div className="max-w-4xl w-full">
                       <Search label="search" />
                     </div>
                     <Waypoint

@@ -59,7 +59,7 @@ const Search: React.FC<Props> = ({ label, variant, ...props }) => {
       onChange={handleOnChange}
       value={searchTerm}
       name="search"
-      placeholder={t('common:text-search-placeholder')}
+      // placeholder={t('common:text-search-placeholder')}
       variant={variant}
       {...props}
     />

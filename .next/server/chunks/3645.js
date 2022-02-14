@@ -167,7 +167,7 @@ const Products = ({
   }), {
     enabled: Boolean(group)
   });
-  if (isError && error) return /*#__PURE__*/jsx_runtime_.jsx(error_message.default, {
+  if (isError && error) return /*#__PURE__*/jsx_runtime_.jsx(error_message/* default */.Z, {
     message: error.message
   });
 

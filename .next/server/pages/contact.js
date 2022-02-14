@@ -137,8 +137,8 @@ const Contact = () => {
 var ui_image = __webpack_require__(5335);
 ;// CONCATENATED MODULE: ./src/assets/contact-illustration.svg
 /* harmony default export */ const contact_illustration = ({"src":"/_next/static/image/src/assets/contact-illustration.d03e6026d8e2aacf97c45d6a67c24857.svg","height":232,"width":299});
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 // EXTERNAL MODULE: ./src/components/settings/settings.context.tsx
 var settings_context = __webpack_require__(9593);
 // EXTERNAL MODULE: ./src/lib/format-address.ts
@@ -537,7 +537,7 @@ module.exports = require("yup");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,1553,550,102,1860,363,5993,7266,2975], () => (__webpack_exec__(2644)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,1553,102,550,1860,363,5993,7266,2975], () => (__webpack_exec__(2644)));
 module.exports = __webpack_exports__;
 
 })();

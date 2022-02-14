@@ -130,8 +130,8 @@ const getStaticProps = async ({
 var placeholders = __webpack_require__(8802);
 // EXTERNAL MODULE: ./src/framework/rest/products/products.tsx + 1 modules
 var products = __webpack_require__(3645);
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(5282);
 ;// CONCATENATED MODULE: ./src/pages/shops/[slug].tsx
@@ -451,7 +451,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,1553,3795,550,3645,4614,7266,3320,180], () => (__webpack_exec__(2042)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,1553,550,3795,4614,7266,3320,3645,180], () => (__webpack_exec__(2042)));
 module.exports = __webpack_exports__;
 
 })();

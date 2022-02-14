@@ -28,12 +28,12 @@ export const GroupsMenu: React.FC<GroupsMenuProps> = ({
     groups?.find((type) => router.asPath.includes(type.slug)) ?? defaultGroup;
 
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <Menu as="div" className="relative block text-left w-7/12 border-e-2 border-accent">
       <Menu.Button
         className={cn(
           'flex items-center flex-shrink-0 text-sm md:text-base font-semibold h-11 focus:outline-none text-heading xl:px-4',
           {
-            'bg-gray-50 border border-border-200 rounded-lg px-3':
+            'bg-gray-50 rounded-lg px-3 w-full':
               variant === 'minimal',
             'bg-light xl:border border-border-200 xl:text-accent xl:min-w-150 rounded':
               variant === 'colored',
@@ -84,7 +84,7 @@ export const GroupsMenu: React.FC<GroupsMenuProps> = ({
         <Menu.Items
           as="ul"
           className={cn(
-            'absolute  mt-2  py-2 w-48 h-56 lg:h-auto min-h-40 max-h-56 sm:max-h-72 bg-light rounded shadow-700 focus:outline-none',
+            'absolute  mt-2  py-2 w-full h-56 lg:h-auto min-h-40 max-h-56 sm:max-h-72 bg-light rounded shadow-700 focus:outline-none',
             {
               'border border-border-200 end-0 origin-top-end':
                 variant === 'minimal',

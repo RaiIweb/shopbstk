@@ -13,7 +13,7 @@
   "auth-menu-logout": "Logout",
   "join-button": "Join",
   "change-locale": "Switch to german",
-  "text-search": "Search",
+  "text-search": "Search all {{cars}} cars",
   "text-burger-menu": "Burger Menu",
   "text-close": "close",
   "text-or": "Or",

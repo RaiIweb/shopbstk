@@ -132,8 +132,8 @@ const ProfileAddressGrid = ({
 var card = __webpack_require__(1001);
 // EXTERNAL MODULE: ./src/components/dashboard/sidebar.tsx
 var sidebar = __webpack_require__(4700);
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 // EXTERNAL MODULE: ./src/framework/rest/customer/customer.query.ts
 var customer_query = __webpack_require__(5993);
 // EXTERNAL MODULE: external "react-toastify"
@@ -674,7 +674,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,1553,9522,550,102,2562,876,4700,1860,363,5993,2975,1001,856,3494], () => (__webpack_exec__(1387)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,1553,9522,102,550,2562,876,4700,1860,363,5993,2975,1001,856,3494], () => (__webpack_exec__(1387)));
 module.exports = __webpack_exports__;
 
 })();

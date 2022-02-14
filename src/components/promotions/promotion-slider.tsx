@@ -1,6 +1,6 @@
 import { ArrowNext, ArrowPrev } from '@components/icons';
 import { Swiper, SwiperSlide, Navigation } from '@components/ui/slider';
-import { Image } from '@components/ui/image';
+// import { Image } from '@components/ui/image';
 import { useTranslation } from 'next-i18next';
 
 const offerSliderBreakpoints = {
@@ -39,14 +39,11 @@ export default function PromotionSlider({ sliders }: { sliders: any[] }) {
         >
           {sliders?.map((d) => (
             <SwiperSlide key={d.id}>
-              <Image
-                className="w-full h-auto"
-                src={d.original}
-                alt={d.id}
-                layout="responsive"
-                width="580"
-                height="270"
-              />
+              <div className="h-100 w-100 py-16 px-10 rounded-md" style={{ backgroundColor: d.color }}>
+                  <h1 className="text-light text-2xl font-bold mb-2">{d.title}</h1>
+                  <p className="text-light text-xs mb-5">{d.subtitle}</p>
+                  <button className="text-accent bg-light rounded-3xl py-2 px-3 text-xs font-bold">{d.button.text}</button>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

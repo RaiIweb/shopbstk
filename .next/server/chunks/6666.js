@@ -24,13 +24,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const UnverifiedItemList = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.all(/* import() */[__webpack_require__.e(1553), __webpack_require__.e(3457), __webpack_require__.e(2605), __webpack_require__.e(9229), __webpack_require__.e(5339)]).then(__webpack_require__.bind(__webpack_require__, 5339)), {
+const UnverifiedItemList = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.all(/* import() */[__webpack_require__.e(3457), __webpack_require__.e(1553), __webpack_require__.e(2605), __webpack_require__.e(9229), __webpack_require__.e(5339)]).then(__webpack_require__.bind(__webpack_require__, 5339)), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(5339)],
     modules: ["../components/checkout/right-side-view.tsx -> " + '@components/checkout/item/unverified-item-list']
   }
 });
-const VerifiedItemList = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.all(/* import() */[__webpack_require__.e(1553), __webpack_require__.e(3457), __webpack_require__.e(1860), __webpack_require__.e(2605), __webpack_require__.e(2726), __webpack_require__.e(9229), __webpack_require__.e(2147), __webpack_require__.e(3158), __webpack_require__.e(803)]).then(__webpack_require__.bind(__webpack_require__, 803)), {
+const VerifiedItemList = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_3__.default)(() => Promise.all(/* import() */[__webpack_require__.e(3457), __webpack_require__.e(1553), __webpack_require__.e(1860), __webpack_require__.e(2605), __webpack_require__.e(2726), __webpack_require__.e(9229), __webpack_require__.e(2147), __webpack_require__.e(3158), __webpack_require__.e(803)]).then(__webpack_require__.bind(__webpack_require__, 803)), {
   loadableGenerated: {
     webpack: () => [/*require.resolve*/(803)],
     modules: ["../components/checkout/right-side-view.tsx -> " + '@components/checkout/item/verified-item-list']

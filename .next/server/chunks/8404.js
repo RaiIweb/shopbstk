@@ -109,59 +109,6 @@ const BannerShort = ({
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BannerShort);
 });
 
-/***/ }),
-
-/***/ 2182:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Tg": () => (/* reexport */ arrow_next/* ArrowNextIcon */.z),
-  "zF": () => (/* reexport */ arrow_prev/* ArrowPrevIcon */.W)
-});
-
-// UNUSED EXPORTS: Check
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(9297);
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(5282);
-;// CONCATENATED MODULE: ./src/components/icons/check-icon.tsx
-
-
-
-const Check = ({
-  width = 24,
-  height = 24,
-  className
-}) => {
-  return /*#__PURE__*/_jsx("svg", {
-    width: width,
-    height: height,
-    className: className,
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    children: /*#__PURE__*/_jsx("path", {
-      d: "M20 6L9 17L4 12",
-      strokeWidth: "2",
-      strokeLinecap: "round",
-      strokeLinejoin: "round"
-    })
-  });
-};
-
-/* harmony default export */ const check_icon = ((/* unused pure expression or super */ null && (Check)));
-// EXTERNAL MODULE: ./src/components/icons/arrow-next.tsx
-var arrow_next = __webpack_require__(1808);
-// EXTERNAL MODULE: ./src/components/icons/arrow-prev.tsx
-var arrow_prev = __webpack_require__(693);
-;// CONCATENATED MODULE: ./src/components/icons/index.ts
-
-
-
-
 /***/ })
 
 };

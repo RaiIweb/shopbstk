@@ -180,8 +180,8 @@ const ChangePassword = () => {
 };
 
 /* harmony default export */ const change_password = (ChangePassword);
-// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 10 modules
-var layout = __webpack_require__(4657);
+// EXTERNAL MODULE: ./src/components/layouts/layout.tsx + 11 modules
+var layout = __webpack_require__(2947);
 // EXTERNAL MODULE: ./src/framework/rest/ssr/common.ts
 var common = __webpack_require__(102);
 ;// CONCATENATED MODULE: ./src/pages/change-password.tsx
@@ -496,7 +496,7 @@ module.exports = require("yup");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,4318,3844,2923,65,808,9076,4657,1553,102,2562,4700,9805,4175,1001,5555], () => (__webpack_exec__(6193)));
+var __webpack_exports__ = __webpack_require__.X(0, [3061,5152,9583,4318,3844,2923,65,808,9076,2947,1553,102,2562,4700,9805,4175,1001,5555], () => (__webpack_exec__(6193)));
 module.exports = __webpack_exports__;
 
 })();
